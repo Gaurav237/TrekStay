@@ -5,7 +5,7 @@ import Header from "./Header";
 
 export default function Layout() {
     return (
-        <div>
+        <div className="p-4 flex flex-col min-h-screen">
             <Header />
             {/* Outlet component is used to render nested routes */}
             <Outlet />

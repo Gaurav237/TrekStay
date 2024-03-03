@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 export default function Header() {
     return (
-        <header className='p-5 flex justify-between'>
+        <header className='pb-4 flex justify-between'>
             {/* logo */}
             <a href="" className='flex items-center gap-1.5 text-red-600' >
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-7 h-7">
